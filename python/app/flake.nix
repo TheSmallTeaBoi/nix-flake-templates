@@ -10,7 +10,7 @@
 
   outputs = { self, nixpkgs, mach-nix, flake-utils, ... }:
     let
-      pythonVersion = "python39";
+      pythonVersion = "python39Full";
     in
     flake-utils.lib.eachDefaultSystem (system:
       let
